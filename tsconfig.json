@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@octopusdebug": ["packages/octopusdebug/src"]
+    },
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "ES6",
+    "module": "commonjs",
+    "declaration": true,
+    "sourceMap": true,
+    "composite": true
+  },
+  "include": ["packages/octopusdebug/src"],
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,6 @@
+{
+  "packages": [
+    "packages/octopusdebug"
+  ],
+  "version": "0.1.0"
+}
